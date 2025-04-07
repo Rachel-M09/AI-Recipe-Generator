@@ -120,9 +120,22 @@ footer {
     padding: 20px 200px;
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    grid-gap: 40px;
+    grid-gap: 40px; 
+}
 
-    
+#results-heading {
+    text-align: center;
+    color: #f96d00;
+    background: rgb(82, 79, 79);
+    margin: 0 500px ;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.recipe {
+    text-align: center;
+    margin: 0 500px;
+    font-size: 20px;
 }
 
 div.favourites {
@@ -143,6 +156,7 @@ div.favourites:hover {
     cursor: pointer;
     transform: scale(1, 1.2);
 }
+
 
 
 
